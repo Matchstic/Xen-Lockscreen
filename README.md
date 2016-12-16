@@ -1,2 +1,5 @@
 # Xen
-A complete lockscreen replacement
+###A complete lockscreen replacement
+=========
+
+This repository is intended as a place to report and track known issues, along with any code fragments I may release of parts of the tweak.
