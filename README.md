@@ -12,11 +12,11 @@ Supports iOS 9 and 10, and all device types. Note that whilst iOS 9 compatibilit
 
 **Content Pages**
 
-☀️ Weather ([http://imgur.com/6rTVXnr](http://imgur.com/6rTVXnr))
-📅 Calendar ([http://imgur.com/xVzq2H3](http://imgur.com/xVzq2H3))
-🚀 Launchpad ([http://imgur.com/zMoiNXT](http://imgur.com/zMoiNXT))
-📱 NC Widgets ([http://imgur.com/yaz7Isb](http://imgur.com/yaz7Isb))
-💽 Toggles ([http://imgur.com/vIQ3Qvd](http://imgur.com/vIQ3Qvd))
+- ☀️ Weather ([http://imgur.com/6rTVXnr](http://imgur.com/6rTVXnr))
+- 📅 Calendar ([http://imgur.com/xVzq2H3](http://imgur.com/xVzq2H3))
+- 🚀 Launchpad ([http://imgur.com/zMoiNXT](http://imgur.com/zMoiNXT))
+- 📱 NC Widgets ([http://imgur.com/yaz7Isb](http://imgur.com/yaz7Isb))
+- 💽 Toggles ([http://imgur.com/vIQ3Qvd](http://imgur.com/vIQ3Qvd))
 
 These pages can be arranged in any order, and can be added or removed from the lockscreen with ease.
 
@@ -24,8 +24,8 @@ These pages can be arranged in any order, and can be added or removed from the l
 
 Xen Lockscreen allows grouping of notifications together per app, along with applying a custom styling similar to iOS 10 for iOS 9 users.
 
-Grouping: [http://imgur.com/WghIytZ](http://imgur.com/WghIytZ)
-Styling: [http://imgur.com/pnOT1KD](http://imgur.com/pnOT1KD)
+- Grouping: [http://imgur.com/WghIytZ](http://imgur.com/WghIytZ)
+- Styling: [http://imgur.com/pnOT1KD](http://imgur.com/pnOT1KD)
 
 **Unlock Direction**
 
