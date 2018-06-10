@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>title</key>
+	<string>Weather</string>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Configure how often weather data updates.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>default</key>
+			<integer>30</integer>
+			<key>defaults</key>
+			<string>com.matchstic.xen</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>isController</key>
+			<true/>
+			<key>key</key>
+			<string>weatherUpdateInterval</string>
+			<key>label</key>
+			<string>Weather Update Interval</string>
+			<key>PostNotification</key>
+			<string>com.matchstic.xen/settingschanged</string>
+			<key>validTitles</key>
+			<array>
+				<string>10 Minutes</string>
+				<string>15 Minutes</string>
+				<string>20 Minutes</string>
+				<string>30 Minutes</string>
+				<string>40 Minutes</string>
+				<string>50 Minutes</string>
+				<string>1 Hour</string>
+				<string>2 Hours</string>
+			</array>
+			<key>validValues</key>
+			<array>
+				<integer>10</integer>
+				<integer>15</integer>
+				<integer>20</integer>
+				<integer>30</integer>
+				<integer>40</integer>
+				<integer>50</integer>
+				<integer>60</integer>
+				<integer>120</integer>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

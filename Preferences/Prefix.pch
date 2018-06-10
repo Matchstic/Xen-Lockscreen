@@ -1,0 +1,12 @@
+//
+// Prefix header for all source files of the 'XenPrefs' target in the 'XenPrefs' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+    #import <Preferences/Preferences.h>
+
+    #define SETTINGS_PATH @"/var/mobile/Library/Preferences/com.matchstic.Xen.plist"
+    #define IDENTIFIER "com.matchstic.Xen"
+#endif

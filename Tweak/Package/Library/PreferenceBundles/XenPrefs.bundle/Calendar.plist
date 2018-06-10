@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>title</key>
+	<string>Calendar</string>
+	<key>items</key>
+	<array>
+     	<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Shows the colour of the calendar an event is associated with.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.matchstic.xen</string>
+			<key>key</key>
+			<string>showCalendarColours</string>
+			<key>label</key>
+			<string>Show Calendar Colours</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>The number of days in advance to show events for.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>defaults</key>
+			<string>com.matchstic.xen</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>default</key>
+			<integer>5</integer>
+			<key>key</key>
+			<string>calendarDaysInAdvance</string>
+			<key>label</key>
+			<string>Days To Display</string>
+			<key>validTitles</key>
+			<array>
+				<string>Two</string>
+				<string>Three</string>
+				<string>Four</string>
+				<string>Five</string>
+				<string>Six</string>
+				<string>Seven</string>
+			</array>
+			<key>validValues</key>
+			<array>
+				<integer>2</integer>
+				<integer>3</integer>
+				<integer>4</integer>
+				<integer>5</integer>
+				<integer>6</integer>
+				<integer>7</integer>
+			</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Calendar Style</string>
+			<key>footerText</key>
+			<string>The Calendar page can be presented in three ways:
+• Per Day shows the events only for the selected day
+• Agenda shows events for the next few days
+• Combined brings both styles together</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSDefaultCell</string>
+			<key>cellClass</key>
+			<string>XENPCalendarModeCell</string>
+			<key>height</key>
+			<integer>180</integer>
+		</dict>
+	</array>
+</dict>
+</plist>

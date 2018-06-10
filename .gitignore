@@ -1,0 +1,8 @@
+Packages/*
+LatestBuild
+Concepts/*
+Working/*
+Repository/*
+*.deb
+XenPrefs
+Xen.dylib

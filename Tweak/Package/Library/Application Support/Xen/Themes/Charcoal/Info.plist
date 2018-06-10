@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>togglesDisabledColor</key>
+	<dict>
+		<key>red</key>
+		<real>0.176</real>
+		<key>green</key>
+		<real>0.176</real>
+		<key>blue</key>
+		<real>0.176</real>
+		<key>alpha</key>
+		<real>0.75</real>
+	</dict>
+	<key>togglesEnabledColor</key>
+	<dict>
+		<key>red</key>
+		<real>0.478</real>
+		<key>green</key>
+		<real>0.474</real>
+		<key>blue</key>
+		<real>0.47</real>
+		<key>alpha</key>
+		<real>1</real>
+	</dict>
+	<key>togglesSquaredDisabledColor</key>
+	<dict>
+		<key>red</key>
+		<real>0.478</real>
+		<key>green</key>
+		<real>0.474</real>
+		<key>blue</key>
+		<real>0.47</real>
+		<key>alpha</key>
+		<real>1</real>
+	</dict>
+	<key>togglesSquaredEnabledColor</key>
+	<dict>
+		<key>red</key>
+		<real>0.678</real>
+		<key>green</key>
+		<real>0.674</real>
+		<key>blue</key>
+		<real>0.67</real>
+		<key>alpha</key>
+		<real>1</real>
+	</dict>
+	<key>togglesTintWithWallpaper</key>
+	<false/>
+	<key>author</key>
+	<string>Matchstic</string>
+	<key>name</key>
+	<string>Charcoal</string>
+	<key>thumbnailImage</key>
+	<string>Icon</string>
+</dict>
+</plist>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>title</key>
+	<string>Additional Features</string>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>label</key>
+			<string>PEEK</string>
+			<key>detail</key>
+			<string>XENPPeekController</string>
+			<key>isController</key>
+			<string>YES</string>
+			<key>icon</key>
+			<string>CellIcons/Peek.png</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>label</key>
+			<string>THEMES</string>
+			<key>detail</key>
+			<string>XENPThemesController</string>
+			<key>isController</key>
+			<string>YES</string>
+			<key>icon</key>
+			<string>CellIcons/Themes.png</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>label</key>
+			<string>MORNING_SUMMARY</string>
+			<key>detail</key>
+			<string>XENPWelcomeController</string>
+			<key>isController</key>
+			<string>YES</string>
+			<key>icon</key>
+			<string>CellIcons/Welcome.png</string>
+		</dict>
+	</array>
+</dict>
+</plist>

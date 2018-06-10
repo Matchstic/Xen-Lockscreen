@@ -1,0 +1,36 @@
+//
+//  SPDraggingContainerView.m
+//  DragNDropFeature
+//
+//  Created by Nevyn Bengtsson on 2012-12-10.
+//  Copyright (c) 2012 Spotify. All rights reserved.
+//
+
+#import "DragonContainerWindow.h"
+
+@implementation DragonContainerWindow
+
+- (instancetype)initWithFrame:(CGRect)frame {
+    if(!(self = [super initWithFrame:frame]))
+        return nil;
+
+    self.userInteractionEnabled = NO;
+    self.backgroundColor = [UIColor clearColor];
+    self.opaque = NO;
+	self.windowLevel = UIWindowLevelStatusBar;
+	
+	self.rootViewController = [UIViewController new];
+	self.rootViewController.view.backgroundColor = [UIColor clearColor];//[UIColor colorWithHue:0.4 saturation:1 brightness:1 alpha:0.2];
+
+    return self;
+}
+
+-(CGFloat)windowLevel {
+    return 1075.0;
+}
+
+- (bool)_shouldCreateContextAsSecure {
+    return YES;
+}
+
+@end

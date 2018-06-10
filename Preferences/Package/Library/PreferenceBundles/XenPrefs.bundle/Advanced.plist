@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>title</key>
+	<string>Advanced</string>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Miscellaneous</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>default</key>
+			<integer>10</integer>
+			<key>defaults</key>
+			<string>com.matchstic.xen</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>isController</key>
+			<true/>
+			<key>key</key>
+			<string>lockScreenIdleTime</string>
+			<key>label</key>
+			<string>Lockscreen Idle Duration</string>
+			<key>PostNotification</key>
+			<string>com.matchstic.xen/settingschanged</string>
+			<key>validTitles</key>
+			<array>
+				<string>10 Seconds</string>
+				<string>15 Seconds</string>
+				<string>20 Seconds</string>
+				<string>30 Seconds</string>
+				<string>1 Minute</string>
+				<string>2 Minutes</string>
+			</array>
+			<key>validValues</key>
+			<array>
+				<integer>10</integer>
+				<integer>15</integer>
+				<integer>20</integer>
+				<integer>30</integer>
+				<integer>60</integer>
+				<integer>120</integer>
+			</array>
+		</dict>
+
+	</array>
+</dict>
+</plist>

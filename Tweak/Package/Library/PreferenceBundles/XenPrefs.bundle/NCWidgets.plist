@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>title</key>
+	<string>NC Widgets</string>
+	<key>items</key>
+	<array>
+     	<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Lightens the colouration of the UI; some widgets may not be legible in this mode.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.matchstic.xen</string>
+			<key>key</key>
+			<string>widgetsAlternateColoursMode</string>
+			<key>label</key>
+			<string>Use Light UI</string>
+		</dict>
+	</array>
+</dict>
+</plist>

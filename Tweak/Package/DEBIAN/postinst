@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo "I'm Commander Shepard, and this is my favourite tweak on the Citadel"
+
+touch /tmp/com.matchstic.xen.reboot_flag

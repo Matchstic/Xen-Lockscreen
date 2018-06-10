@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>title</key>
+	<string>Home Page</string>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Notifications Style</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSDefaultCell</string>
+			<key>cellClass</key>
+			<string>XENPNotificationsSwitchCell</string>
+			<key>height</key>
+			<integer>180</integer>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>label</key>
+			<string>Notification Grouping</string>
+			<key>detail</key>
+			<string>XENPGroupedNotificationsController</string>
+			<key>isController</key>
+			<string>YES</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Media Artwork Style</string>
+			<key>footerText</key>
+			<string>Both Square and Combined will be hidden whilst notifications are visible.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSDefaultCell</string>
+			<key>cellClass</key>
+			<string>XENPMediaSwitchCell</string>
+			<key>height</key>
+			<integer>180</integer>
+		</dict>	
+     	<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Unlock Swipe Direction</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSegmentCell</string>
+			<key>validValues</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+				<integer>2</integer>
+			</array>
+			<key>validTitles</key>
+			<array>
+				<string>Left</string>
+				<string>Upwards</string>
+				<string>Right</string>
+			</array>
+			<key>default</key>
+			<integer>1</integer>
+			<key>defaults</key>
+			<string>com.matchstic.xen</string>
+			<key>key</key>
+			<string>slideToUnlockModeDirection</string>
+			<key>PostNotification</key>
+			<string></string>
+		</dict>	
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>HTML Widgets</string>
+			<key>footerText</key>
+			<string>Build any combination of HTML widgets, from all major tweaks that support them.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>label</key>
+			<string>Customise Widgets</string>
+			<key>detail</key>
+			<string>XENPHTMLController</string>
+			<key>isController</key>
+			<string>YES</string>
+			<key>enabled</key>
+			<false/>
+		</dict>
+	</array>
+</dict>
+</plist>

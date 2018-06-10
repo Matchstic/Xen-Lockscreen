@@ -1,0 +1,16 @@
+Package: com.matchstic.xen
+Name: Xen Lockscreen
+Version: 0.3.6-1
+Description: Supercharge your lockscreen
+Section: System
+Depends: firmware (>= 9.0), mobilesubstrate, preferenceloader, applist, com.matchstic.libgithubissues, com.matchstic.infostats2
+Conflicts: com.brycepauken.aeurials, com.cpdigitaldarkroom.cream (<= 1.2.4), com.cpdigitaldarkroom.cleo (<= 1.0.4)
+Provides: com.matchstic.convergance
+Priority: optional
+Architecture: iphoneos-arm
+Author: Matt Clarke <matt@incendo.ws>
+dev: Matt Clarke <matt@incendo.ws>
+Homepage: http://incendo.ws/projects/Xen
+Depiction: http://incendo.ws/xenpublic/depictions/com.matchstic.xen.html
+Maintainer: Matt Clarke <matt@incendo.ws>
+Icon: file:///Library/Application Support/Xen/CydiaIcon.png

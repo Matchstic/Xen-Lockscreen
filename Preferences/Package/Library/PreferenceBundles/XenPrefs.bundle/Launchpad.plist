@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>title</key>
+	<string>Launchpad</string>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>If the device is locked with a passcode, bypass it to open the selected app.</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.matchstic.xen/settingschanged</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.matchstic.xen</string>
+			<key>key</key>
+			<string>launchpadRequiresPasscode</string>
+			<key>label</key>
+			<string>Skip Passcode if Necessary</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Applications</string>
+			<key>footerText</key>
+			<string>Tap and hold to rearrange apps.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSDefaultCell</string>
+			<key>cellClass</key>
+			<string>XENLaunchpadCollectionCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Icon size</string>
+			<key>footerText</key>
+			<string>Adjust the size of icons displayed in Launchpad.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>PostNotification</key>
+			<string>com.matchstic.xen/settingschanged</string>
+			<key>default</key>
+			<real>1</real>
+			<key>defaults</key>
+			<string>com.matchstic.xen</string>
+			<key>key</key>
+			<string>launchpadIconSize</string>
+			<key>max</key>
+			<real>1.5</real>
+			<key>min</key>
+			<real>0.5</real>
+			<key>showValue</key>
+			<false/>
+			<key>increment</key>
+			<real>0.1</real>
+			<key>cellClass</key>
+			<string>XENPIncrementedSliderCell</string>
+		</dict>
+	</array>
+</dict>
+</plist>
